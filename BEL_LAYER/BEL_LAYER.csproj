@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D1C458C-A55A-4236-B749-C7FB653D9186}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BEL_LAYER</RootNamespace>
+    <AssemblyName>BEL_LAYER</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bel_AccPeriod.cs" />
+    <Compile Include="bel_APpayment.cs" />
+    <Compile Include="bel_Approval.cs" />
+    <Compile Include="bel_APVoucher.cs" />
+    <Compile Include="bel_ARCreditNote.cs" />
+    <Compile Include="bel_ARInvoice.cs" />
+    <Compile Include="bel_ARReceipt.cs" />
+    <Compile Include="bel_Authorization.cs" />
+    <Compile Include="bel_Branch.cs" />
+    <Compile Include="bel_Category.cs" />
+    <Compile Include="bel_ChangePassword.cs" />
+    <Compile Include="bel_ChartOfAccounts.cs" />
+    <Compile Include="bel_Company.cs" />
+    <Compile Include="bel_Config.cs" />
+    <Compile Include="bel_Consumption.cs" />
+    <Compile Include="bel_Currency.cs" />
+    <Compile Include="bel_Customer.cs" />
+    <Compile Include="bel_GLEntry.cs" />
+    <Compile Include="bel_salesdelivery.cs" />
+    <Compile Include="bel_Salesorder.cs" />
+    <Compile Include="bel_Discount.cs" />
+    <Compile Include="bel_Email.cs" />
+    <Compile Include="bel_ErrorLog.cs" />
+    <Compile Include="bel_GDN.cs" />
+    <Compile Include="bel_GPN.cs" />
+    <Compile Include="bel_GRN.cs" />
+    <Compile Include="bel_GTN.cs" />
+    <Compile Include="bel_Indent.cs" />
+    <Compile Include="bel_Invoice.cs" />
+    <Compile Include="bel_Jobclosing.cs" />
+    <Compile Include="bel_JobCreation.cs" />
+    <Compile Include="bel_login.cs" />
+    <Compile Include="bel_LoginHistory.cs" />
+    <Compile Include="bel_Notification.cs" />
+    <Compile Include="bel_PackingList.cs" />
+    <Compile Include="bel_Product.cs" />
+    <Compile Include="bel_ProductGroup.cs" />
+    <Compile Include="bel_Quotation.cs" />
+    <Compile Include="bel_PurchaseOrder.cs" />
+    <Compile Include="bel_PurchaseReturn.cs" />
+    <Compile Include="bel_Report.cs" />
+    <Compile Include="bel_Salesreturn.cs" />
+    <Compile Include="bel_ShippingAddress.cs" />
+    <Compile Include="bel_StockResult.cs" />
+    <Compile Include="bel_SubType.cs" />
+    <Compile Include="bel_Task.cs" />
+    <Compile Include="bel_Tax.cs" />
+    <Compile Include="bel_UOM.cs" />
+    <Compile Include="bel_UserCreation.cs" />
+    <Compile Include="bel_UserManagement.cs" />
+    <Compile Include="bel_Warehouse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+1. Unit Price change at POS should update product table as well
+2. consolidate products when it is the same
+3. Fixed discount - Overwrite value
+4. Sales- Void is not coming
+5. Hide Serial at POS pop up
+6. sales Overview chart is not removing cancel sales orders
+6. In POS receipt Print - display the amount of change for Cash Payments
+7. In reports -  Remove Warehouse stock value report
+8. Add New SubCategory - to be removed
+9. Add Products - whenever product code is not in table - than add else do a update
